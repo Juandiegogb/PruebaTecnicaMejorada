@@ -29,7 +29,7 @@ git clone https://github.com/Juandiegogb/PruebaTecnicaMejorada
 En una nueva consola, navega a la carpeta del cliente y ejecuta los siguientes comandos:
 
 ```
-cd PruebaTecnica
+cd PruebaTecnicaMejorada
 cd client
 npm install
 npm run dev
@@ -42,7 +42,7 @@ Esto iniciará el servidor de desarrollo para el cliente, que estará accesible 
 Abre una **nueva consola** y navega a la carpeta del servidor:
 
 ```
-cd PruebaTecnica
+cd PruebaTecnicaMejorada
 cd server
 npm install
 npm run dev
