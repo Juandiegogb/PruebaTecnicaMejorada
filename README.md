@@ -72,4 +72,3 @@ Esto iniciará el servidor backend.
 2. En el panel izquierdo, verás tus registros de ingresos anteriores. El sistema está configurado para permitir un solo registro por día, simulando el ingreso laboral en la mañana.
 
 
-# PruebaTecnicaMejorada
