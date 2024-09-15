@@ -56,7 +56,8 @@ Esto iniciará el servidor backend.
 
 ### **Acceso como Administrador**
 
-1. Abre el navegador y accede a la URL donde corre el cliente (normalmente \`<http://localhost:3000\`>).
+1. Abre el navegador y accede a la URL o desde la consola utiliza CTRL + CLICK para abrir el enlace de vite.
+![alt text](image.png)
 2. Inicia sesión con las siguientes credenciales:
 
     - **Usuario**: \`jdiego\`
