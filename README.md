@@ -17,7 +17,7 @@ Este proyecto es una aplicación cliente-servidor que permite a los administrado
 En la terminal, clona el repositorio utilizando el siguiente comando:
 
 ```
-git clone https://github.com/Juandiegogb/PruebaTecnica
+git clone https://github.com/Juandiegogb/PruebaTecnicaMejorada
 ```
 
 ---
