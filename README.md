@@ -3,6 +3,7 @@
 Este proyecto es una aplicación cliente-servidor que permite a los administradores gestionar usuarios y a los usuarios registrar sus ingresos. El servidor está conectado a una base de datos en MongoDB Atlas.
 
 ### Requisitos
+
 - **Node.js** instalado en tu máquina.
 - **Conexión a internet** (la base de datos está alojada en MongoDB Atlas).
 - **Git** para clonar el repositorio.
@@ -15,9 +16,9 @@ Este proyecto es una aplicación cliente-servidor que permite a los administrado
 
 En la terminal, clona el repositorio utilizando el siguiente comando:
 
-
-- git clone https://github.com/Juandiegogb/PruebaTecnica
-
+```
+git clone https://github.com/Juandiegogb/PruebaTecnica
+```
 
 ---
 
@@ -27,12 +28,12 @@ En la terminal, clona el repositorio utilizando el siguiente comando:
 
 En una nueva consola, navega a la carpeta del cliente y ejecuta los siguientes comandos:
 
-
-- cd PruebaTecnica
-- cd client
-- npm install
-- npm run dev
-
+```
+cd PruebaTecnica
+cd client
+npm install
+npm run dev
+```
 
 Esto iniciará el servidor de desarrollo para el cliente, que estará accesible en tu navegador.
 
@@ -40,12 +41,12 @@ Esto iniciará el servidor de desarrollo para el cliente, que estará accesible 
 
 Abre una **nueva consola** y navega a la carpeta del servidor:
 
-
-- cd PruebaTecnica
-- cd server
-- npm install
-- npm run dev
-
+```
+cd PruebaTecnica
+cd server
+npm install
+npm run dev
+```
 
 Esto iniciará el servidor backend.
 
@@ -55,20 +56,15 @@ Esto iniciará el servidor backend.
 
 ### **Acceso como Administrador**
 
-1. Abre el navegador y accede a la URL donde corre el cliente (normalmente \`http://localhost:3000\`).
+1. Abre el navegador y accede a la URL donde corre el cliente (normalmente \`<http://localhost:3000\`>).
 2. Inicia sesión con las siguientes credenciales:
 
     - **Usuario**: \`jdiego\`
     - **Contraseña**: \`1234456\`
 
-
 3. En el panel izquierdo, verás la lista de usuarios almacenados en la base de datos. Puedes agregar nuevos usuarios utilizando el formulario disponible.
 
 ### **Acceso como Usuario**
 
-
-
 1. Ingresa con las credenciales de algún usuario creado previamente.
 2. En el panel izquierdo, verás tus registros de ingresos anteriores. El sistema está configurado para permitir un solo registro por día, simulando el ingreso laboral en la mañana.
-
-
