@@ -59,7 +59,7 @@ controller.login = async (req, res) => {
         delete userInfo.password;
         const token = createToken(userInfo);
         res.cookie("token", token, { httpOnly: true });
-        res.status(200).json({ userInfo , message: "fineee" });
+        res.status(200).json({ userInfo, message: "fineee" });
       } else {
         res.status(400).json({ message: "Incorrect password" });
       }

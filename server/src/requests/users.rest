@@ -1,0 +1,20 @@
+POST http://localhost:5000/createUser
+Content-Type: application/json
+
+{
+  "name": "Juan Diego Garzon",
+  "password": "1234456",
+  "username": "jdiego",
+  "rol": "admin",
+}
+
+####
+POST http://localhost:5000/createUser
+content-type: application/json
+
+{
+    "name": "Juan Diego Garzon",
+  "password": "1234456",
+  "username": "jdiego",
+  "rol": "admin",
+}
